@@ -15,29 +15,33 @@
 
 
 	<body class="is-preload">
-		<nav id="nav">
+		<nav class="topnav" id="nav">
 			<ul>
 				<li><a href="#header">HOME</a></li>
 				<li><a href="#aboutMe">ABOUT ME</a></li>
 				<li><a href="#mySkills">MY SKILLS</a></li>
 				<li><a href="#projects">MY PROJECTS</a></li>
-				<li><a href="#four">CONTACT</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				  </a>
 			</ul>
+			
 		</nav>
 		<!-- Header -->
 		<section id="header">
 			<header>
-				<span class="logo icon fa-paper-plane"></span>
+				<span class="logo icon fa-moon"></span>
 				<h1>Juan Salado</h1>
-				<p>A responsive HTML5 + CSS3 site template designed by <a href="http://html5up.net">HTML5 UP</a>
 				<br />
-				and released for free under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
-				<p>I got reprogrammed by a rogue AI<br />
-				and now I'm totally cray</p>
+				<p>Software Engineer with experience in all Phases of the
+				<br />
+				Software Development Life Cycle and team working</p>
 			</header>
 			<footer>
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon brands fa-linkedin"><span class="label">Email</span></a></li>
 					<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 			</footer>
@@ -49,16 +53,23 @@
 					<header>
 						<h2>About me</h2>
 					</header>
-					<section>
-						<p>My name is Juan Salado. I was born in Seville, Spain. I am a Software Engineer with a Bachelor in University of
-						Seville. I have experience in all Phases of the Software Development Life Cycle and team working.</p>
-						<p>I really love to design and deploy software. I am really enthusiactic about learning new AI 
-						technologies and working with people I can learn from.</p>
-						<p>I also enjoy reading and writing books. I am a very creative person.</p>
-						<hr />
+					<section id="about-me">
+						<div class="row">
+							<a href="/DTechnology.html" class="image icon solid "><img src="images/me.jpeg"/></a>
+
+							<div class="col">
+								<p>My name is Juan Salado. I was born in Seville, Spain. I am a Software Engineer with a Bachelor in University of
+									Seville. I have experience in all Phases of the Software Development Life Cycle and team working.</p>
+								<p>I really love to design and deploy software. I am really enthusiactic about learning new AI 
+								technologies and working with people I can learn from.</p>
+								<p>I also enjoy reading and writing books. I am a very creative person.</p>
+							</div>
+						</div>
+							
 					</section>
 
 					<section>
+						<hr />
 						<header>
 							<h3>Education</h3>
 						</header>
@@ -111,29 +122,66 @@
 						<h2>My Projects</h2>
 					</header>
 					<section class="feature left">
-						<a href="#" class="image icon solid fa-signal"><img src="images/pic01.jpg" alt="" /></a>
+						<a href="/DTechnology.html" class="image icon solid "><img src="images/ecommerce.jpg" alt="" /></a>
 						<div class="content">
-							<h3>The First Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>DTechnology e-comerce</h3>
+							<p>E-comerce project developed with Django Framework</p>
+							<button class="button-style">
+								<a href="/DTechnology.html">Details</a>
+								</button>
 						</div>
 					</section>
 					<section class="feature right">
-						<a href="#" class="image icon solid fa-code"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="#" class="image icon solid"><img src="images/Innoweb.PNG" alt="" /></a>
 						<div class="content">
-							<h3>The Second Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>Innoweb certification webside</h3>
+							<p>Webside to generate certifications for university events</p>
+							<button class="button-style">
+								<a href="/Innoweb.html">Details</a>
+							</button>
 						</div>
 					</section>
 					<section class="feature left">
-						<a href="#" class="image icon solid fa-mobile-alt"><img src="images/pic03.jpg" alt="" /></a>
+						<a href="#" class="image icon solid"><img src="images/harvard.webp" alt="" /></a>
 						<div class="content">
-							<h3>The Third Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>Harvard CS50 AI projects</h3>
+							<p>Artificial Intelligence bots for TicTacToe game and Knight and Knaves game</p>
+							<button class="button-style">
+								<a href="/Innoweb.html">Details</a>
+							</button>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="#" class="image icon solid"><img src="images/7islands.jpg" alt="" /></a>
+						<div class="content">
+							<h3>Seven Islands Web Game</h3>
+							<p>Online Game developed with Spring Boot framework</p>
+							<button class="button-style">
+								<a href="/Innoweb.html">Details</a>
+							</button>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="#" class="image icon solid"><img src="images/NearBy.png" alt="" /></a>
+						<div class="content">
+							<h3>NearBy Social Network</h3>
+							<p>Photography social network</p>
+							<button class="button-style">
+								<a href="/Innoweb.html">Details</a>
+							</button>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="#" class="image icon solid"><img src="images/RecoBook.png" alt="" /></a>
+						<div class="content">
+							<p id="coming-soon">Coming soon...</p>
+							<h3>RecoBook</h3>
+							<p>A Dialogflow chatbot capable of recommending books to users</p>
 						</div>
 					</section>
 				</div>
 
-				
+			<!--
 				<div class="box container">
 					<header>
 						<h2>A lot of generic stuff</h2>
@@ -274,7 +322,7 @@
 						</form>
 					</section>
 				</div>
-				
+			
 
 				<footer class="major container medium">
 					<h3>Get shady with science</h3>
@@ -285,47 +333,24 @@
 				</footer>
 
 			</div>
+		-->
 
 		<!-- Footer -->
 			<div id="footer">
-				<div class="container medium">
+				<div class="container medium" id="contact">
 
-					<header class="major last">
-						<h2>Questions or comments?</h2>
+					<header>
+						<h2>Contact Me</h2>
 					</header>
 
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
-					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+					<p>I will be pleased to contact you through GitHub, Linkedin or Gmail</p>
 
-					<form method="post" action="#">
-						<div class="row">
-							<div class="col-6 col-12-mobilep">
-								<input type="text" name="name" placeholder="Name" />
-							</div>
-							<div class="col-6 col-12-mobilep">
-								<input type="email" name="email" placeholder="Email" />
-							</div>
-							<div class="col-12">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
-							</div>
-							<div class="col-12">
-								<ul class="actions special">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
 
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-					</ul>
-
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li><a href="#" class="icon brands fa-github"><b> @juradosalado</b></a></li>
+						<li><a href="#" class="icon brands fa-linkedin"><b> Juan Salado</b></a></li>
+						<br />
+						<li><a href="#" class="icon fa-envelope"><b> juansaladous@gmail.com</b></a></li>
 					</ul>
 
 				</div>
@@ -337,6 +362,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function myFunction() {
+					var x = document.getElementById("nav");
+					if (x.className === "topnav") {
+						x.className += " responsive";
+					  } else {
+						x.className = "topnav";
+					}
+					}
+			</script>
 
 	</body>
 </html>

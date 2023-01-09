@@ -3,7 +3,14 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+function responsiveNavbar() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+	  x.className += " responsive";
+    } else {
+	  x.className = "topnav";
+	}
+  }
 (function($) {
 
 	var	$window = $(window),
