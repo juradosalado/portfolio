@@ -11,6 +11,10 @@ function responsiveNavbar() {
 	  x.className = "topnav";
 	}
   }
+
+  $(document).ready(function(){
+	$("#navbar").load("navbar.html");
+  });
 (function($) {
 
 	var	$window = $(window),
