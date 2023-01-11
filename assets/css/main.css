@@ -286,8 +286,8 @@ input, select, textarea {
 	}
 
 	#about-me img{
-		border-radius: 5%;
-		max-width: 15rem;
+		border-radius: 15%;
+		max-width: 18rem;
 	}
 
 	#project-img{
@@ -303,6 +303,17 @@ input, select, textarea {
 		justify-content: center;
 		max-width: 50rem;
 		margin-bottom: 2rem;
+	}
+
+	#coming-soon-img{
+		float: right;
+		display: inline-block;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+		width: 50%;
+		margin-bottom: 2rem;
+		text-align: right;
 	}
 
 	@media screen and (max-width: 600px) {
